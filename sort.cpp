@@ -97,7 +97,7 @@ int main(int argc, char** argv)
 			break;
 	}
 
-	quick_sort(&vec[0], &vec.back());
+	bubble_sort(&vec[0], &vec.back());
 
 	for(int i = 0; i < vec.size() - 1; i++)
 		std::cout << vec[i] << ", ";
